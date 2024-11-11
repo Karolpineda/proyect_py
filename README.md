@@ -1,7 +1,7 @@
 # Hello with Python
 ## 🥇Scope
 <p align="center">
-    <img src="./public/img/content.png" alt="Hello from javascript">
+    <img src="./materials/results.png" alt="Hello from javascript">
 </p>
 This program to print the messages "Hello" in the languaje Python.
 
