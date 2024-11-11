@@ -32,7 +32,7 @@ docker run -p 8000:8000 karolpineda/proyect_py:v1
    ```
 
 > [!IMPORTANT]
-> By default of python we use the port 5000. If it is required to deploy it on a different port, only 5000 must be modified for another desired port.
+> By default of python we use the port 8000. If it is required to deploy it on a different port, only 8000 must be modified for another desired port.
 
 ## 🔍 View the results
 [View results](#scope)
