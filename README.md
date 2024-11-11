@@ -15,6 +15,8 @@ This program to print the messages "Hello" in the languaje Python.
 
 **3.** You can run of the proyect en el button ▶️
 
+---
+
 ## 🐳 How to run in docker
 
 ### Pre-requisites
@@ -25,20 +27,27 @@ This program to print the messages "Hello" in the languaje Python.
    ```
 docker push karolpineda/proyect_py:v1
    ```
-**2.**  Finally, you can run the imagen with the folling command.
+**2.**  Then, you can run the imagen with the folling command.
    ```
 docker run -p 5000:8000 karolpineda/proyect_py:v1
 
    ```
+**3.**  Finally, go to the following route to view the results in any browser.
+
+#### http://localhost:5000 
+
 
 > [!IMPORTANT]
-> By default of python we use the port 5000. If it is required to deploy it on a different port, only 8000 must be modified for another desired port.
+> By default of python we use the port 5000. If it is required to deploy it on a different port, only 5000 must be modified for another desired port.
 
 ## 🔍 View the results
 [View results](#scope)
 
-## 🔍 View in Railway
+---
+
+## 🚅 View in Railway
 [Click me](https://proyectpy-production.up.railway.app/)
 <p align="right">
 By. Karol Pineda
 </p>
+
