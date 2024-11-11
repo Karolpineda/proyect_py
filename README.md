@@ -3,12 +3,12 @@
 <p align="center">
     <img src="./public/img/content.png" alt="Hello from javascript">
 </p>
-This program to print the messages "Hello with Python" in the languaje Python.
+This program to print the messages "Hello" in the languaje Python.
 
 ## 📑Instalation
 **1.** Clone the Repository
    ```
-    git clone https://github.com/Karolpineda/Proyect_Python.git
+    git clone https://github.com/Karolpineda/proyect_py.git
    ```
 
 **2.** Once the project has been cloned, you must open it with the VSCode code editor.
@@ -23,11 +23,11 @@ This program to print the messages "Hello with Python" in the languaje Python.
 
 **1.** Download image and run the following command in a terminal.
    ```
-    docker pull karolpineda/app-python:version1.0
+docker push karolpineda/proyect_py:v1
    ```
 **2.**  Finally, you can run the imagen with the folling command.
    ```
-docker run -p 5000:5000 karolpineda/app-python:version1.0
+docker run -p 8000:8000 karolpineda/proyect_py:v1
 
    ```
 
