@@ -9,12 +9,19 @@ This program to print the messages "Hello" in the languaje Python.
 **1.** Clone the Repository
    ```
     git clone https://github.com/Karolpineda/proyect_py.git
-   ```
+  ```
+> [!IMPORTANT]
+>### Install Dependences
+>In this proyecto doesn't need to install any dependeces to run.
 
-**2.** Once the project has been cloned, you must open it with the VSCode code editor.
+**2.** Run python with folloing comand 
+ ```
+   python app.py
+ ```
 
-**3.** You can run of the proyect en el button ▶️
+**3.** You can check this proyecto in any browser with next to rute.
 
+### http://localhost:5000 
 ---
 
 ## 🐳 How to run in docker
@@ -22,6 +29,8 @@ This program to print the messages "Hello" in the languaje Python.
 ### Pre-requisites
 * Docker - DockerDesktop installed
 * DockerHub account
+
+
 
 **1.** Download image and run the following command in a terminal.
    ```
@@ -46,6 +55,9 @@ docker run -p 5000:8000 karolpineda/proyect_py:v1
 ---
 
 ## 🚅 View in Railway
+
+### What is Railway?
+It is a cloud platform for easily deploying, hosting and scaling web applications and databases.
 [Click me](https://proyectpy-production.up.railway.app/)
 <p align="right">
 By. Karol Pineda
