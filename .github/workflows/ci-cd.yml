@@ -1,0 +1,29 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - QA
+  pull_request:
+    branches:
+      - Producción
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Build Docker Image
+        run: |
+          docker build -t tu_usuario_dockerhub/hola-mundo:${{ github.ref_name }} .
+
+      - name: Push Docker Image to Docker Hub
+        env:
+          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+        run: |
+          echo "2510Masoquizta." | docker login -u "$karolpineda" --password-stdin
+          docker push tu_usuario_dockerhub/hola-mundo:${{ github.ref_name }}
